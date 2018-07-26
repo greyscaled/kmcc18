@@ -1,10 +1,13 @@
 <template>
-  <div id="app">
+  <div class="container" id="app">
+    <Footer />
   </div>
 </template>
 
 <script>
+import Footer from '@/components/Footer'
 export default {
-  name: 'app'
+  name: 'app',
+  components: { Footer }
 }
 </script>

@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - '9'
+env:
+  - NODE_ENV=test
+script:
+  - cd server
+  - npm install
+  - npm run test
+  - cd ..

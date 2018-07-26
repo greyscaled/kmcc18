@@ -1,0 +1,15 @@
+{
+  "name": "kevin-marley-city-council-2018",
+  "version": "0.1.0",
+  "description": "Kevin Marley Hamilton city council 2018 website",
+  "license": "UNLICENSED",
+  "author": {
+    "name": "vapurrmaid",
+    "email": "vapurrmaid@gmail.com",
+    "url": "https://github.com/vapurrmaid"
+  },
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "private": true
+}

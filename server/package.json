@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ./**",
-    "server:dev": "cross-env NODE_ENV=development nodemone index.js",
-    "start": "node index.js",
+    "lint": "eslint src/*",
+    "server:dev": "cross-env NODE_ENV=development nodemon src/index.js",
+    "start": "node src/index.js",
     "test": "npm run lint && npm run test:unit && npm run test:integration --exit",
     "test:integration": "cross-env NODE_ENV=test mocha test/*.integration.js --recursive --sort --timeout 10000 --exit",
     "test:unit": "cross-env NODE_ENV=test nyc mocha test/**/*.test.js --recursive --sort --timeout 10000 --exit",

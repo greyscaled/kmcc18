@@ -1,7 +1,7 @@
 /* eslint-env mocha */
 
 const assert = require('assert')
-const ServerUtils = require('../../utils/server-utils')
+const ServerUtils = require('../../src/utils/server-utils')
 
 describe('ServerUtils', function () {
   // normalizePort (int|string) -> string|number

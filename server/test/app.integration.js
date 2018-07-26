@@ -5,7 +5,7 @@ const request = require('supertest')
 
 describe('app', function () {
   beforeEach(function () {
-    this.server = require('../app')
+    this.server = require('../src/app')
   })
 
   it('trusts proxies', function () {

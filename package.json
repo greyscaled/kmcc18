@@ -1,15 +1,27 @@
 {
-  "name": "kevin-marley-city-council-2018",
+  "name": "kevin-marley-cc-2018-client",
   "version": "0.1.0",
-  "description": "Kevin Marley Hamilton city council 2018 website",
-  "license": "UNLICENSED",
+  "private": true,
   "author": {
     "name": "vapurrmaid",
     "email": "vapurrmaid@gmail.com",
     "url": "https://github.com/vapurrmaid"
   },
-  "scripts": {},
-  "dependencies": {},
-  "devDependencies": {},
-  "private": true
+  "license": "UNLICENSED",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test": "npm run lint ==exit"
+  },
+  "dependencies": {
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-rc.5",
+    "@vue/cli-plugin-eslint": "^3.0.0-rc.5",
+    "@vue/cli-service": "^3.0.0-rc.5",
+    "@vue/eslint-config-standard": "^3.0.0-rc.5",
+    "vue-template-compiler": "^2.5.16"
+  }
 }

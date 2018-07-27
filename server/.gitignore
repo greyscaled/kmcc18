@@ -1,8 +1,0 @@
-# configuration keys etc
-config/
-
-# coverage metrics
-.nyc_output/
-
-# dependencies
-node_modules/
